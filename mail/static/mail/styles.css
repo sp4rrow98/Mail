@@ -1,0 +1,48 @@
+textarea {
+    min-height: 400px;
+}
+
+.email-read > div {
+    opacity: 0.6;
+    background-color: rgb(211, 211, 211);
+}
+
+.border > .row {
+    font-weight: bold;
+}
+
+.col.sender {
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.email-read > * {
+    transition: all 0.2s ease-in-out;
+}
+
+.email-read:hover > * {
+    transform: scale(1.01);
+    box-shadow: 1px 1px rgb(185, 178, 178);
+}
+
+.anim > * {
+    transition: all 0.2s ease-in-out;
+}
+
+.anim:hover > * {
+    transform: scale(1.01);
+    box-shadow: 1px 1px rgb(185, 178, 178);
+}
+
+.email-unread > * {
+    transition: all 0.2s ease-in-out;
+}
+
+.email-unread:hover > * {
+    transform: scale(1.01);
+    box-shadow: 1px 1px rgb(185, 178, 178);
+}
+
+/* TEXT pentru mailuri in inbox/sent/archived mai gros, evidentiat */
+/* Modificat felul in care sunt redate mailurile ( subiectul in mijloc, data la final ) */
+
